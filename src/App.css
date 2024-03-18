@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.heading{
+  color: blue;
+  text-align: center;
+  margin: 3rem;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+}
+
+.user-input{
+  margin-left: 35rem;
+  width: 20rem;
+  height: 3rem;
+  font-size: larger;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.user-input:hover{
+  filter: drop-shadow(3px 3px 3px black);
+}
+
+.add-todo{
+  height: 40px;
+  width: 80px;
+  margin-left: 3rem;
+  background-color: green;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  border-color: green;
+}
+
+.todo-list{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: x-large;
+}
+
+.remove-todo{
+  height: 30px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  margin-left: 2rem;
+  border-radius: 0.7rem;
+}
+
+.todos{
+  text-align: center;
+  margin-top: 2rem;
+}
